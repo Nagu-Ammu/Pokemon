@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    cursor: url('/Image/Logo.png'),pointer;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    background:linear-gradient(rosybrown 50%,royalblue 50%);
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    transition: transform 2s;
+}
+img:hover{
+    transform: scale(1.1);
+    
+}
